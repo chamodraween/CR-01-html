@@ -1,0 +1,14 @@
+.div {
+    width: 100px;
+    height: 100px;
+    background-color: yellowgreen;
+    position: relative;
+    transition: width 420ms,height 420ms,transform 1s;
+}
+.div:hover {
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+    transform: rotate(360deg);
+    background-color: aqua;
+}

@@ -1,0 +1,53 @@
+.menubar {
+    /* list-style-type: none; */
+    margin: 0;
+    padding: 0;
+    /* overflow: hidden; */
+    background-color: #0a0202;
+}
+
+.External{
+    color: #0f75bc;
+            padding: 10px;
+            background-color: #b4b4b4;
+}
+#image2 {
+    padding: 7px;
+            background-color: black;
+            border-radius: 10px;
+            border: 2px solid #0f75bc;
+}
+
+/* Type Selector */
+h4{
+    color: #0f75bc;
+            padding: 10px;
+            background-color: #b4b4b4;
+}
+
+/* ID Selector */
+#img-22 {
+    padding: 7px;
+            background-color: black;
+            border-radius: 10px;
+            border: 2px solid #0f75bc;
+            width: 20%;
+}
+
+/* Class Selector */
+.description {
+    color: #333;
+    font-size: 14px;
+}
+
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 10px;
+    background-color: rgb(245 243 243);
+}
+
+/* Child Selector */
+body > p, label > p {
+    font-size: 12px;
+}
