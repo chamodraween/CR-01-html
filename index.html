@@ -6,6 +6,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 01</title>
     <link rel="stylesheet" href="CSS/style.css">
+
+    <style>
+        .imperative-textarea::placeholder {
+            font-weight: bold;
+            color: red;
+        }
+    </style>
 </head>
 <body>
     <a class="menu_bar" href="CSS/index.html"   type="button">Style</a>
@@ -19,6 +26,8 @@
     <a class="menu_bar" href="Transition/index.html"   type="button">Transition</a>
     <a class="menu_bar" href="Animation/index.html"   type="button">Animation</a>
     <a class="menu_bar" href="Bootstrap/index.html"   type="button">Bootstrap</a>
+    <a class="menu_bar" href="Tailwind/index.html"   type="button">Tailwind CSS</a>
+    <a class="menu_bar" href="Tailwind/index.html"   type="button">Java Script</a>
 
     <br><br><br>
      <!-- Comment -->
@@ -99,8 +108,31 @@
       </form>
 
     <!-- textarea tag -->
-    <textarea name="" id="" cols="50" rows="10"> It was a dark and stormy night...</textarea>
+    <textarea name="" id="" cols="50" rows="10"> <strong>I will</strong></textarea>
     <br><br>
+
+
+    <textarea class="imperative-textarea" placeholder="I will"></textarea>
+
+    <textarea id="myTextarea" aria-readonly="I will"></textarea>
+
+    <script>
+        // Get the textarea element
+        const textarea = document.getElementById('myTextarea');
+
+        // Set the initial text
+        textarea.value = "I will";
+
+        // Listen for keydown events on the textarea
+        textarea.addEventListener('keydown', function(event) {
+            // Allow users to type normally after the initial text
+            textarea.removeAttribute('readonly');
+        });
+    </script>
+
+
+
+
 
     <!-- Orderlist Tag -->
     <ol>
