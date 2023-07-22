@@ -16,3 +16,36 @@ function Check(){
 }
 
 document.write(name)
+
+//Let
+let x =10;
+console.log(x)
+console.log("..................................")
+{
+    x = 12;
+    console.log(x)
+}
+
+//Var
+var v = 25;
+console.log(v)
+
+{
+    var n = 12;
+    var n = 20;
+    console.log(n)
+    console.log("..................................")
+}
+
+//const
+const d = 17;
+//const d = 51;  ==== error
+// d = 16;  ==== error
+console.log(d)
+
+{
+    console.log(d)
+    //d = 34;
+    //const d = 34;  ==== error
+}
+console.log("..................................")
