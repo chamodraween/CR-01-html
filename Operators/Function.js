@@ -97,4 +97,80 @@ switch (marks){
         console.log("Fail...");
 }
 
+//else if
+run = 19;
 
+if (75 <= run){
+    console.log("Grade A");
+}else if (65 <= run){
+    console.log("Grade B");
+}else if (55 <= run){
+    console.log("Grade C");
+}else {
+    console.log("Grade Failed");
+}
+
+// For Loops
+for (let i = 0; i <= 5; i++){
+    console.log(i);
+}
+
+// For in
+const child = {name: "Chamod", age: 21, address: "Aluthgama", school: "Gnanissara"}
+
+let text = ""
+for (let x in child){
+    console.log(x +": "+child[x])
+}
+const car = ["BMW", "Volvo", "Ford"];
+for (let a in car){
+    console.log(car[a]);
+}
+
+//For Of
+console.log("........For Of.......")
+for (let w of car){
+    console.log(w);
+}
+console.log("......................")
+const acpt = "CHAMOD"
+for (let w of acpt){
+    console.log(w);
+}
+console.log("..........While Loop............")
+
+// While Loop
+let n = 0;
+while (n < 10){
+    console.log(n);
+    n++;
+}
+console.log("..........Do While Loop............")
+//Do While Loop
+let o = 0;
+do {
+    o++;
+    console.log(o)
+}
+while (o < 5);
+
+console.log("..........Loop Break............")
+//Beak While Loop
+
+for (let i = 0; i < 10; i++){
+    if (i=== 7){break;}
+    console.log("The Number is : ",i);
+}
+
+console.log("..........Loop continue............")
+//continue Loop
+
+for (let i = 0; i < 10; i++){
+    if (i=== 7){continue;}
+    console.log("The Number is : ",i);
+}
+console.log("..........Loop Test 1............")
+for (let p = 0; p > -10; p--){
+    if (p=== -7){break;}
+    console.log("The Number is :  ",p);
+}
